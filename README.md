@@ -21,7 +21,7 @@ composer require indigotree/wp-bootstrap-nav-walker
 
 Update `wp_nav_menu()` to use the `IndigoTree\BootstrapNavWalker\Three\WalkerNavMenu` walker. For example:
 
-````
+````php
 <?php
 
 wp_nav_menu([
@@ -40,7 +40,7 @@ wp_nav_menu([
 
 Update `wp_nav_menu()` to use the `IndigoTree\BootstrapNavWalker\Four\WalkerNavMenu` walker. For example:
 
-````
+````php
 <?php
 
 wp_nav_menu([
