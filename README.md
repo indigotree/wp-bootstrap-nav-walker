@@ -1,6 +1,6 @@
 # WP Bootstrap Nav Walker
 
-A WordPress Nav Walker to implement Bootstrap navbars.
+WordPress Nav Walkers to implement Bootstrap navbars.
 
 * * *
 

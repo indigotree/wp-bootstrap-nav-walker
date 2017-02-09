@@ -1,6 +1,6 @@
 {
     "name": "indigotree/wp-bootstrap-nav-walker",
-    "description": "A custom WordPress nav walker to implement the Bootstrap 3 navigation.",
+    "description": "WordPress Nav Walkers to implement Bootstrap navbars.",
     "homepage": "https://github.com/indigotree/wp-bootstrap-nav-walker",
     "version": "0.1.0",
     "keywords": ["wordpress", "bootstrap", "nav walker"],
