@@ -83,7 +83,7 @@ class WalkerNavMenu extends BaseWalkerNavMenu
         $atts['rel']    = !empty($item->xfn)     ? $item->xfn    : '';
         $atts['class'] = 'nav-link';
 
-        if ($args->has_children && 0 === $depth) {
+        if ($args->has_children && 0 === $depth && $args->depth > 1) {
             $atts['href']           = '#';
             $atts['data-toggle']    = 'dropdown';
             $atts['class']         .= ' dropdown-toggle';

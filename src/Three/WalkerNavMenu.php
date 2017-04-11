@@ -54,7 +54,7 @@ class WalkerNavMenu extends BaseWalkerNavMenu
         $atts['target'] = !empty($item->target)  ? $item->target : '';
         $atts['rel']    = !empty($item->xfn)     ? $item->xfn    : '';
 
-        if ($args->has_children && 0 === $depth) {
+        if ($args->has_children && 0 === $depth && $args->depth > 1) {
             $atts['href']           = '#';
             $atts['data-toggle']    = 'dropdown';
             $atts['class']          = 'dropdown-toggle';
@@ -73,7 +73,7 @@ class WalkerNavMenu extends BaseWalkerNavMenu
         $item_output = $args->before;
         $item_output .= '<a'.$attributes.'>';
         $item_output .= $args->link_before.$title.$args->link_after;
-        $item_output .= $args->has_children && 0 === $depth ? ' <span class="caret"></span></a>' : '</a>';
+        $item_output .= $args->has_children && 0 === $depth && $args->depth > 1 ? ' <span class="caret"></span></a>' : '</a>';
         $item_output .= $args->after;
 
         $output .= apply_filters('walker_nav_menu_start_el', $item_output, $item, $depth, $args);
