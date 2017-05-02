@@ -29,7 +29,7 @@ wp_nav_menu([
     'depth' => 2,
     'container' => 'div',
     'container_class' => 'collapse navbar-collapse',
-    'container_id' => 'primary-navbar-collapse'
+    'container_id' => 'primary-navbar-collapse',
     'menu_class' => 'nav navbar-nav',
     'fallback_cb' => '__return_empty_string',
     'walker' => new \IndigoTree\BootstrapNavWalker\Three\WalkerNavMenu()
@@ -48,7 +48,7 @@ wp_nav_menu([
     'depth' => 2,
     'container' => 'div',
     'container_class' => 'collapse navbar-collapse',
-    'container_id' => 'primary-navbar-collapse'
+    'container_id' => 'primary-navbar-collapse',
     'menu_class' => 'navbar-nav',
     'fallback_cb' => '__return_empty_string',
     'walker' => new \IndigoTree\BootstrapNavWalker\Four\WalkerNavMenu()
