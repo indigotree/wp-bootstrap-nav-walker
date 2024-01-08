@@ -60,6 +60,7 @@ class WalkerNavMenu extends BaseWalkerNavMenu
             $atts['class']          = 'dropdown-toggle';
             $atts['aria-haspopup']  = 'true';
             $atts['aria-expanded']  = 'false';
+            $atts['role']           = 'button';
         } else {
             $atts['href'] = !empty($item->url) ? $item->url : '';
         }
